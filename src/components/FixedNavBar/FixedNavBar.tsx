@@ -29,19 +29,19 @@ export const FixedNavBar = () => {
                     <div className="w-[520px] h-[48px] flex justify-around items-center font-bold text-main">
                         <div className="flex items-center gap-1">
                             <img className="w-[20px]" src={Support_Icon} alt="support button"/>
-                            <h1>Support</h1>
+                            <h1 className="hover:text-secundary">Support</h1>
                         </div>
                         <div className="flex items-center gap-1">
                             <img className="w-[20px]" src={Wish_List_Icon} alt="wish list button"/>
-                            <h1>Wish List</h1>
+                            <h1 className="hover:text-secundary">Wish List</h1>
                         </div>
                         <div className="flex items-center gap-1">
                             <img className="w-[20px]" src={Cart_Icon} alt="cart button"/>
-                            <h1>Cart</h1>
+                            <h1 className="hover:text-secundary">Cart</h1>
                         </div>
                         <div className="flex items-center gap-1">
                             <img className="w-[20px]" src={Login_Icon} alt="login button"/>
-                            <h1>Log in / Sign Up</h1>
+                            <h1 className="hover:text-secundary">Log in / Sign Up</h1>
                         </div>
 
                     </div>
