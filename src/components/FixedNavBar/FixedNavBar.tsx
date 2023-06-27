@@ -1,4 +1,9 @@
 import React from "react";
+import Support_Icon from "../../icons/help_live_question_icon.png";
+import Wish_List_Icon from "../../icons/favourite_heart_love_icon.png";
+import Cart_Icon from "../../icons/cart_shopping_icon.png";
+import Login_Icon from "../../icons/login_user_icon.png";
+
 
 export const FixedNavBar = () => {
     return(
@@ -13,16 +18,20 @@ export const FixedNavBar = () => {
                         <input className="w-full" placeholder="Search"/>
                     </div>
                     <div className="w-[520px] h-[48px] flex justify-around items-center font-bold text-[#939393]">
-                        <div>
+                        <div className="flex items-center gap-1">
+                            <img className="w-[20px]" src={Support_Icon} alt="support button"/>
                             <h1>Support</h1>
                         </div>
-                        <div>
+                        <div className="flex items-center gap-1">
+                            <img className="w-[20px]" src={Wish_List_Icon} alt="wish list button"/>
                             <h1>Wish List</h1>
                         </div>
-                        <div>
+                        <div className="flex items-center gap-1">
+                            <img className="w-[20px]" src={Cart_Icon} alt="cart button"/>
                             <h1>Cart</h1>
                         </div>
-                        <div>
+                        <div className="flex items-center gap-1">
+                            <img className="w-[20px]" src={Login_Icon} alt="login button"/>
                             <h1>Log in / Sign Up</h1>
                         </div>
 
