@@ -1,0 +1,2 @@
+- Design responsive header
+- Add functionality to the header
