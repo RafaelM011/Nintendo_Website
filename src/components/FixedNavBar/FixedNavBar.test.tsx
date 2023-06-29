@@ -3,9 +3,10 @@ import { render, screen } from "@testing-library/react";
 
 describe('<FixedNavBar/> render', () => {
     const {container} = render(<FixedNavBar/>);
-    expect.assertions(1);
-    test('<FixedNavBar/> is being rendered',  () => {
-        const nintendologo = screen.getByTestId('nintendo_logo')
-        expect(nintendologo).toBeInTheDocument();
+
+    expect.assertions(2);
+    test('The NavBar is being rendered',  () => {
+        expect(container).toBeInTheDocument();
+        expect(container).toMatchSnapshot();
     })
 })

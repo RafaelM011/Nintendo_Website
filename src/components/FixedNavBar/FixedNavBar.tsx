@@ -4,7 +4,7 @@ import Cart_Icon from "../../icons/cart_shopping_icon.png";
 import Login_Icon from "../../icons/login_user_icon.png";
 import Magnifier_Icon from "../../icons/magnifier_search_zoom_icon.png";
 
-export const FixedNavBar = () => {
+export const FixedNavBar = (): JSX.Element => {
     return(
         <header className="sticky">
             <div className="bg-white flex">
