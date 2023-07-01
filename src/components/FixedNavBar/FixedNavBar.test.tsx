@@ -1,5 +1,5 @@
 import { FixedNavBar } from "./FixedNavBar";
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
 
 describe('<FixedNavBar/> render', () => {
     const {container} = render(<FixedNavBar/>);
@@ -8,5 +8,6 @@ describe('<FixedNavBar/> render', () => {
     test('The NavBar is being rendered',  () => {
         expect(container).toBeInTheDocument();
         expect(container).toMatchSnapshot();
+        
     })
 })
