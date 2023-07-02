@@ -19,7 +19,7 @@ export const GameImages: React.FC<Props> = ({images}): JSX.Element => {
                 <button onClick={() => handleSlide(1)} className="absolute top-0 bottom-0 right-0 pr-10" disabled={imgIndex === 6}> R </button>
             </div>
             <div className="py-2 bg-red-200 w-full h-[100px]">
-
+                {/* DEFINE LATER */}
             </div>
         </>
     )

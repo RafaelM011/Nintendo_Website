@@ -2,6 +2,7 @@ import React from 'react';
 import { FixedNavBar } from './components/FixedNavBar/FixedNavBar';
 import { GameDisplay } from './components/GameDisplay/GameDisplay';
 import data from "./mocks/data.json";
+import { GameInfo } from './components/GameInfo/GameInfo';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </div>
         <main>
           <GameDisplay gameData={data}/>
+          <GameInfo info={data}/>
         </main>
         <footer>
           

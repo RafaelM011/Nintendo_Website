@@ -2,16 +2,18 @@ import { type gameDataType } from "../../type.d";
 import ERating from "../../assets/E10plus.svg";
 import { GameImages } from "./GameImages";
 
-interface Props {
-    gameData: gameDataType;
+type Extract = Pick<gameDataType, "title" | "price" | "urls">;
+
+type Props = {
+    gameData: Extract;
 }
 
 export const GameDisplay: React.FC<Props> = ({gameData}): JSX.Element => {
     const {title, price, urls} = gameData;
 
     return(
-        <section className="h-[650px] bg-[#D6F0FA] pt-12">
-            <div className="bg-white h-[650px] w-[1200px] mx-auto shadow-[0px_0px_15px_8px_rgba(0,0,0,0.3)] grid grid-cols-7">
+        <section className="h-[650px] bg-[#D6F0FA] pt-12 max-[1200px]:pt-0 relative">
+            <div className="bg-white h-[650px] w-[1200px] max-[1200px]:w-full  mx-auto shadow-[0px_0px_15px_8px_rgba(0,0,0,0.3)] grid grid-cols-7">
                  <div className="col-start-1 col-end-5 h-full px-12 pt-8">
                     <header className="flex gap-2 pb-4 text-sm text-main">
                         <p> Store </p>
