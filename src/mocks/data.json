@@ -1,13 +1,13 @@
 {
     "title": "Stardew Valley",
-    "price": "14.99",
+    "price": 14.99,
     "urls": [
-        "../assets/hero.avif",
-        "../assets/screenshot01",
-        "../assets/screenshot02",
-        "../assets/screenshot03",
-        "../assets/screenshot04",
-        "../assets/screenshot05",
-        "../assets/screenshot06"
+        "hero.avif",
+        "screenshot01.avif",
+        "screenshot02.avif",
+        "screenshot03.avif",
+        "screenshot04.avif",
+        "screenshot05.avif",
+        "screenshot06.avif"
     ]
 }
