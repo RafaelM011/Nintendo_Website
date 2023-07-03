@@ -48,7 +48,16 @@ function App() {
           </section>
           <MoreGames/>
         </main>
-        <footer>
+        <footer className='mt-32'>
+          <div className='w-full bg-secundary h-[120px]'>
+
+          </div>
+          <div className='w-[1100px] h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr]'>
+
+          </div>
+          <div className='w-full h-[80px] bg-[#242424]'>
+
+          </div>
         </footer>
     </>
   );
