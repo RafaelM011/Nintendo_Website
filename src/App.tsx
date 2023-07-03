@@ -56,7 +56,13 @@ function App() {
 
           </div>
           <div className='w-full h-[80px] bg-[#242424]'>
-
+              <p> © Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA </p>
+              <div>
+                  <button> Contact Us </button>
+                  <button> Website feedback </button>
+                  <button> Terms of use </button>
+                  <button> Documents & Policies </button>
+              </div>
           </div>
         </footer>
     </>
