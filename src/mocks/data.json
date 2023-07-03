@@ -11,5 +11,22 @@
         "screenshot04.avif",
         "screenshot05.avif",
         "screenshot06.avif"
-    ]
+    ],
+    "details": {
+        "release_date": "Octubre 5, 2017",
+        "no_of_players": {
+            "single_system": "Single System (1)",
+            "local_wireless": "Local Wireless (1)",
+            "online": "Online (1-4)"
+        },
+        "genre": {
+            "role_playing": "Role-Playing",
+            "simulation": "Simulation"
+        },
+        "publisher": "Concerned Ape",
+        "ESRB_rating": "Everyone 10+",
+        "supported_play_modes": "TV Mode, Tabletop mode, Handheld mode",
+        "size": "15 GB",
+        "languages": "English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Simplified Chinese, Spanish, Traditional Chinese"
+    }
 }

@@ -1,7 +1,3 @@
-export type gameDataType = {
-    title: string;
-    price: number;
-    infoHeader: string;
-    information: string;
-    urls: string[];
-}
+import data from "./mocks/data.json";
+
+export type gameDataType = typeof data;

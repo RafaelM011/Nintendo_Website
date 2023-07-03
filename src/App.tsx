@@ -3,6 +3,7 @@ import { FixedNavBar } from './components/FixedNavBar/FixedNavBar';
 import { GameDisplay } from './components/GameDisplay/GameDisplay';
 import data from "./mocks/data.json";
 import { GameInfo } from './components/GameInfo/GameInfo';
+import { GameDetails } from './components/GameDetails/GameDetails';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <main>
           <GameDisplay gameData={data}/>
           <GameInfo info={data}/>
+          <GameDetails detail={data}/>
         </main>
         <footer>
           
