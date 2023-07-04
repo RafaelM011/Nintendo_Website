@@ -55,13 +55,13 @@ function App() {
           <div className='w-[1100px] h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr]'>
 
           </div>
-          <div className='w-full h-[80px] bg-[#242424]'>
-              <p> © Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA </p>
-              <div>
-                  <button> Contact Us </button>
-                  <button> Website feedback </button>
-                  <button> Terms of use </button>
-                  <button> Documents & Policies </button>
+          <div className='w-full h-[80px] bg-[#242424] flex gap-10 justify-center items-center'>
+              <p className='text-xs text-white'> © Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA </p>
+              <div className='flex gap-4 '>
+                  <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Contact Us </button>
+                  <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Website feedback </button>
+                  <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Terms of use </button>
+                  <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Documents & Policies </button>
               </div>
           </div>
         </footer>
