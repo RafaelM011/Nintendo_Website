@@ -61,28 +61,52 @@ export const Footer: React.FC = (): JSX.Element => {
                     </svg>
                 </div>
             </header>
-            <main className='w-[1100px] h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr] pt-10'>
-                <div className="col-start-1 col-end-1 border-main border-r-2 h-[220px]"> 
-                     
+            <main className='w-8/12 h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr] pt-10'>
+                <div className="col-start-1 col-end-1 border-main border-r-2 h-[220px] pl-4"> 
+                    <h1 className="text-main font-bold text-md hover:underline underline-offset-8 decoration-red-800"> About Nintendo </h1>
+                    <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Careers </p>
+                    <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Corporate Social Responsability </p>
                 </div>
-                <div className="col-start-2 col-end-2 border-main border-r-2 h-[220px]"> 
-                     
+                <div className="col-start-2 col-end-2 border-main border-r-2 h-[220px] pl-4"> 
+                     <h1 className="text-main font-bold text-md hover:underline underline-offset-8 decoration-red-800"> Shop </h1>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Games </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Hardware </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Merchandise </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Sales & deals </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Exclusives </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Online services </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Nintendo NY sotre </p>
                 </div>
-                <div className="col-start-3 col-end-3 border-main border-r-2 h-[220px]"> 
-                     
+                <div className="col-start-3 col-end-3 border-main border-r-2 h-[220px] pl-4"> 
+                     <h1 className="text-main font-bold text-md hover:underline underline-offset-8 decoration-red-800"> My Nintendo Store orders </h1>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Orders detail </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Shipping info </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Returns & exchanges </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> FAQ </p>
                 </div>
-                <div className="h-[200px]"> 
-                     
+                <div className="h-[220px] pl-4"> 
+                     <h1 className="text-main font-bold text-md hover:underline underline-offset-8 decoration-red-800"> Supports </h1>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Nintendo Switch </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Nintendo Account </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Other systems </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Reparis </p>
+                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Nintendo product recucling </p>
                 </div>
-                <div className="h-[220px] grid grid-cols-2 grid-rows-2 gap-10"> 
-                     <div className="border-main border-l-2 h-[90px]">  
-
+                <div className="h-[220px] pl-4 grid grid-cols-2 grid-rows-2 gap-5"> 
+                     <div className="border-main border-l-2 h-[100px] pl-4">  
+                         <h1 className="text-main font-bold text-md hover:underline underline-offset-8 decoration-red-800"> Parents </h1>
+                         <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Info for parents </p>
+                         <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Parental controls </p>
                      </div>
-                     <div className="border-main border-l-2 h-[90px]">  
-
+                     <div className="border-main border-l-2 h-[100px] pl-4">  
+                        <h1 className="text-main font-bold text-md hover:underline underline-offset-8 decoration-red-800"> Community </h1>
+                        <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Community guidelines </p>
+                        <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Online safety principles </p>
                      </div>
-                     <div className="border-main border-l-2 h-[90px]">  
-
+                     <div className="border-main border-l-2 h-[100px] pl-4">  
+                        <h1 className="text-main font-bold text-md hover:underline underline-offset-8 decoration-red-800"> Privacy </h1>
+                        <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Privacy policy </p>
+                        <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Cookies and interes-based-ads </p>
                      </div>
                 </div>
             </main>
