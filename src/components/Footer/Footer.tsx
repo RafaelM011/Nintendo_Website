@@ -1,7 +1,7 @@
 export const Footer: React.FC = (): JSX.Element => {
     return(
         <>
-            <div className='w-full bg-secundary h-[120px] flex justify-between px-60 text-white'>
+            <header className='w-full bg-secundary h-[120px] flex justify-between px-60 text-white'>
                 <svg className=" cursor-pointer" 
                     viewBox="0 0 97 24" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -60,11 +60,33 @@ export const Footer: React.FC = (): JSX.Element => {
                         </path>
                     </svg>
                 </div>
-            </div>
-            <div className='w-[1100px] h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr]'>
+            </header>
+            <main className='w-[1100px] h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr] pt-10'>
+                <div className="col-start-1 col-end-1 border-main border-r-2 h-[220px]"> 
+                     
+                </div>
+                <div className="col-start-2 col-end-2 border-main border-r-2 h-[220px]"> 
+                     
+                </div>
+                <div className="col-start-3 col-end-3 border-main border-r-2 h-[220px]"> 
+                     
+                </div>
+                <div className="h-[200px]"> 
+                     
+                </div>
+                <div className="h-[220px] grid grid-cols-2 grid-rows-2 gap-10"> 
+                     <div className="border-main border-l-2 h-[90px]">  
 
-            </div>
-            <div className='w-full h-[80px] bg-[#242424] flex gap-10 justify-center items-center'>
+                     </div>
+                     <div className="border-main border-l-2 h-[90px]">  
+
+                     </div>
+                     <div className="border-main border-l-2 h-[90px]">  
+
+                     </div>
+                </div>
+            </main>
+            <footer className='w-full h-[80px] bg-[#242424] flex gap-10 justify-center items-center'>
                 <p className='text-xs text-white'> © Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA </p>
                 <div className='flex gap-4 '>
                     <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Contact Us </button>
@@ -72,7 +94,7 @@ export const Footer: React.FC = (): JSX.Element => {
                     <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Terms of use </button>
                     <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Documents & Policies </button>
                 </div>
-            </div>
+            </footer>
         </>
     )
 }
