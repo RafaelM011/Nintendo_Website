@@ -5,6 +5,7 @@ import data from "./mocks/data.json";
 import { GameInfo } from './components/GameInfo/GameInfo';
 import { GameDetails } from './components/GameDetails/GameDetails';
 import { MoreGames } from './components/MoreGames/MoreGames';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -49,21 +50,7 @@ function App() {
           <MoreGames/>
         </main>
         <footer className='mt-32'>
-          <div className='w-full bg-secundary h-[120px]'>
-
-          </div>
-          <div className='w-[1100px] h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr]'>
-
-          </div>
-          <div className='w-full h-[80px] bg-[#242424] flex gap-10 justify-center items-center'>
-              <p className='text-xs text-white'> © Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA </p>
-              <div className='flex gap-4 '>
-                  <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Contact Us </button>
-                  <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Website feedback </button>
-                  <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Terms of use </button>
-                  <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Documents & Policies </button>
-              </div>
-          </div>
+          <Footer/>
         </footer>
     </>
   );
