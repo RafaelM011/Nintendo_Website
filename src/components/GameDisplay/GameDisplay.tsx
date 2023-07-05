@@ -17,9 +17,9 @@ export const GameDisplay: React.FC<Props> = ({gameData}): JSX.Element => {
                  <div className="col-start-1 col-end-5 h-full px-12 pt-8">
                     <header className="flex gap-2 pb-4 text-sm text-main">
                         <p> Store </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="Breadcrumbsstyles__StyledChevronRightIcon-sc-sjz6t7-3 jpVOeu" width="10" role="presentation" data-testid="ChevronRightIcon" color="#dadada"><path fill-rule="evenodd" clip-rule="evenodd" fill="#dadada" d="M5.3 4.3L9.8 0l16.9 16L9.8 32l-4.5-4.3L17.7 16z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="Breadcrumbsstyles__StyledChevronRightIcon-sc-sjz6t7-3 jpVOeu" width="10" role="presentation" data-testid="ChevronRightIcon" color="#dadada"><path fillRule="evenodd" clipRule="evenodd" fill="#dadada" d="M5.3 4.3L9.8 0l16.9 16L9.8 32l-4.5-4.3L17.7 16z"></path></svg>
                         <p> Games </p>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="Breadcrumbsstyles__StyledChevronRightIcon-sc-sjz6t7-3 jpVOeu" width="10" role="presentation" data-testid="ChevronRightIcon" color="#dadada"><path fill-rule="evenodd" clip-rule="evenodd" fill="#dadada" d="M5.3 4.3L9.8 0l16.9 16L9.8 32l-4.5-4.3L17.7 16z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="Breadcrumbsstyles__StyledChevronRightIcon-sc-sjz6t7-3 jpVOeu" width="10" role="presentation" data-testid="ChevronRightIcon" color="#dadada"><path fillRule="evenodd" clipRule="evenodd" fill="#dadada" d="M5.3 4.3L9.8 0l16.9 16L9.8 32l-4.5-4.3L17.7 16z"></path></svg>
                         <p> Stardew Valley </p>
                     </header>
                     <main className="h-[450px] flex flex-col justify-between">

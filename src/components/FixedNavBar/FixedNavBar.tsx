@@ -20,7 +20,7 @@ export const FixedNavBar = (): JSX.Element => {
       }, [])
 
     return(
-        <header className="fixed top-0 left-0 right-0 z-10">
+        <header className="sticky top-0 left-0 right-0 z-10">
             { viewportWidth < 1024 
                 ? 
                 <>
