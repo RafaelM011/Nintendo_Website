@@ -1,7 +1,7 @@
 export const BottomNavBar = (): JSX.Element => {
     return(
         <div className="fixed bottom-0 left-0 right-0 w-full h-[70px] bg-gradient-to-t from-black to-white">
-            <div className="w-7/12 h-5/6 bg-white mx-auto rounded-full flex justify-evenly">
+            <div className="w-7/12 h-5/6 bg-white mx-auto rounded-full flex justify-evenly relative bottom-4">
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     viewBox="0 0 32 32" 
@@ -28,7 +28,7 @@ export const BottomNavBar = (): JSX.Element => {
                         fill="currentColor">
                     </path>
                 </svg>
-                <div className=" rounded-full bg-secundary text-white w-[60px] h-[60px] flex justify-center items-center">
+                <div className=" rounded-full bg-secundary text-white w-[60px] h-[60px] flex justify-center items-center relative bottom-3">
                     <svg 
                         data-name="Magnifying glass" 
                         xmlns="http://www.w3.org/2000/svg" 
