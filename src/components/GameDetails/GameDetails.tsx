@@ -72,7 +72,7 @@ export const GameDetails: React.FC<Props> = ({detail}): JSX.Element => {
                     </svg>
                     <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center pl-4">
                         <h1 className="text-[#484848] font-semibold text-left my-auto"> No. of players </h1>
-                        <div className="flex gap-4">
+                        <div className="flex  flex-wrap gap-4">
                             <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.single_system} </p>
                             <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.local_wireless} </p>
                             <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.online} </p>
