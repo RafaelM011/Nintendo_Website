@@ -11,7 +11,7 @@ export const GameInfo: React.FC<Props> = ({info}): JSX.Element => {
     const [height, setHeight] = useState<'h-[280px]' | 'h-fit'>('h-[280px]')
     
     return(
-        <section className="flex flex-col md:flex-row justify-center items-center w-full max-w-[1000px] mx-auto mt-20 md:mt-24 gap-4">
+        <section className="flex flex-col md:flex-row justify-center items-center w-full max-w-[1000px] mx-auto mt-20 md:mt-24 gap-4 px-4">
             <div className="basis-1/2">
                 <h2 className="text-main font-bold mb-4 text-2xl"> {infoHeader} </h2>
                 <p className={`text-main whitespace-pre-line ${height} overflow-hidden`}> {information} </p>

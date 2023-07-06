@@ -18,6 +18,6 @@
             NavBar BP 1024px                :done, 07-04, 1d
             GameDisplay/Info BP 768px       :done, 07-05, 1d
             GameDetails BP 768px            :active, 07-06, 1d
-            Footer BP 768px/1024px          : 07-07, 1d
-            GameImages Slider               : 07-09, 1d
+            Footer BP 768px/1024px          : 07-08, 1d
+            GameImages Slider               :crit, 07-09, 1d
 ```
