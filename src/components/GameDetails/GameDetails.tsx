@@ -38,55 +38,71 @@ export const GameDetails: React.FC<Props> = ({detail}): JSX.Element => {
                     </div>
                 </div>
             </section>
-            {/* <section className="w-[1000px] h-[500px] grid grid-rows-[repeat(8,1fr)] mx-auto mt-10">
-                <div className="border-main border-t-2 grid grid-cols-[28px_1fr_2fr]">
+            <section className="max-w-[1000px] h-[500px] grid grid-rows-[repeat(8,1fr)] mx-auto mt-10 px-4">
+                <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
                     <img className="col-start-1 col-span-1" alt=""/>
-                    <h1 className="text-[#484848] font-semibold text-left my-auto"> Release Date </h1>
-                    <p className="text-[#484848] text-left my-auto"> {details.release_date} </p>
-                </div>
-                <div className="border-main border-t-2 grid grid-cols-[28px_1fr_2fr]">
-                    <img className="col-start-1 col-span-1" alt=""/>
-                    <h1 className="text-[#484848] font-semibold text-left my-auto"> No. of players </h1>
-                    <div className="flex gap-4">
-                        <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.single_system} </p>
-                        <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.local_wireless} </p>
-                        <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.online} </p>
+                    <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center">
+                        <h1 className="text-[#484848] font-semibold text-left my-auto"> Release Date </h1>
+                        <p className="text-[#484848] text-left my-auto"> {details.release_date} </p>                        
                     </div>
                 </div>
-                <div className="border-main border-t-2 grid grid-cols-[28px_1fr_2fr]">
+                <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
                     <img className="col-start-1 col-span-1" alt=""/>
-                    <h1 className="text-[#484848] font-semibold text-left my-auto"> Genre </h1>
-                    <div className="flex gap-4">
-                        <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.genre.role_playing} </p>
-                        <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.genre.simulation} </p>
+                    <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center">
+                        <h1 className="text-[#484848] font-semibold text-left my-auto"> No. of players </h1>
+                        <div className="flex gap-4">
+                            <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.single_system} </p>
+                            <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.local_wireless} </p>
+                            <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.no_of_players.online} </p>
+                        </div>
                     </div>
                 </div>
-                <div className="border-main border-t-2 grid grid-cols-[28px_1fr_2fr]">
+                <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
                     <img className="col-start-1 col-span-1" alt=""/>
-                    <h1 className="text-[#484848] font-semibold text-left my-auto"> Publisher </h1>
-                    <p className="text-secundary font-semibold text-left my-auto border-b-2 border-secundary cursor-pointer w-fit"> {details.publisher} </p>
+                    <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center">
+                        <h1 className="text-[#484848] font-semibold text-left my-auto"> Genre </h1>
+                        <div className="flex gap-4">
+                            <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.genre.role_playing} </p>
+                            <p className="text-secundary text-left font-semibold border-b-2 border-secundary my-auto cursor-pointer"> {details.genre.simulation} </p>
+                        </div>
+                    </div>
                 </div>
-                <div className="border-main border-t-2 grid grid-cols-[28px_1fr_2fr]">
+                <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
                     <img className="col-start-1 col-span-1" alt=""/>
-                    <h1 className="text-[#484848] font-semibold text-left my-auto"> ESRB rating </h1>
-                    <p className="text-secundary font-semibold text-left my-auto border-b-2 border-secundary cursor-pointer w-fit"> {details.ESRB_rating} </p>
+                    <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center">
+                        <h1 className="text-[#484848] font-semibold text-left my-auto"> Publisher </h1>
+                        <p className="text-secundary font-semibold text-left my-auto border-b-2 border-secundary cursor-pointer w-fit"> {details.publisher} </p>
+                    </div>
                 </div>
-                <div className="border-main border-t-2 grid grid-cols-[28px_1fr_2fr]">
+                <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
                     <img className="col-start-1 col-span-1" alt=""/>
-                    <h1 className="text-[#484848] font-semibold text-left my-auto"> Supported play modes </h1>
-                    <p className="text-[#484848] text-left my-auto"> {details.supported_play_modes} </p>
+                    <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center">
+                        <h1 className="text-[#484848] font-semibold text-left my-auto"> ESRB rating </h1>
+                        <p className="text-secundary font-semibold text-left my-auto border-b-2 border-secundary cursor-pointer w-fit"> {details.ESRB_rating} </p>
+                    </div>
                 </div>
-                <div className="border-main border-t-2 grid grid-cols-[28px_1fr_2fr]">
+                <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
                     <img className="col-start-1 col-span-1" alt=""/>
-                    <h1 className="text-[#484848] font-semibold text-left my-auto"> Game file size </h1>
-                    <p className="text-[#484848] text-left my-auto"> {details.release_date} </p>
+                    <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center">
+                        <h1 className="text-[#484848] font-semibold text-left my-auto"> Supported play modes </h1>
+                        <p className="text-[#484848] text-left my-auto"> {details.supported_play_modes} </p>
+                    </div>
                 </div>
-                <div className="border-main border-t-2 grid grid-cols-[28px_1fr_2fr]">
+                <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
                     <img className="col-start-1 col-span-1" alt=""/>
-                    <h1 className="text-[#484848] font-semibold text-left my-auto"> Supported languages </h1>
-                    <p className="text-[#484848] text-left my-auto"> {details.release_date} </p>
+                    <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center">
+                        <h1 className="text-[#484848] font-semibold text-left my-auto"> Game file size </h1>
+                        <p className="text-[#484848] text-left my-auto"> {details.release_date} </p>
+                    </div>
                 </div>
-            </section> */}
+                <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
+                    <img className="col-start-1 col-span-1" alt=""/>
+                    <div className="col-start-2 col-end-2 grid-rows-2 md:grid-rows-1 md:grid-cols-[1fr,2fr] grid self-center">
+                        <h1 className="text-[#484848] font-semibold text-left my-auto"> Supported languages </h1>
+                        <p className="text-[#484848] text-left my-auto"> {details.release_date} </p>
+                    </div>
+                </div>
+            </section>
         </>
     )
 }
