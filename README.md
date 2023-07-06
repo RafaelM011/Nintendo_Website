@@ -2,7 +2,7 @@
 
 ### Week July 3rd - July 7th
 - [x] NavBar responsive breakpoint at 1024px
-- [ ] GameDisplay and GameInfo responsive breakpoint at 768px
+- [x] GameDisplay and GameInfo responsive breakpoint at 768px
 - [ ] GameDetails responsive breakponit at 768px 
 - [ ] Footer breakpoint at 768px and 1024px
 - [ ] GameImages Slider that moves with an arrow button on PCs and moves with the finger on mobile

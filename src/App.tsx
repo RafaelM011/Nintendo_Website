@@ -2,7 +2,7 @@ import React from 'react';
 import { FixedNavBar } from './components/FixedNavBar/FixedNavBar';
 import { GameDisplay } from './components/GameDisplay/GameDisplay';
 import data from "./mocks/data.json";
-// import { GameInfo } from './components/GameInfo/GameInfo';
+import { GameInfo } from './components/GameInfo/GameInfo';
 // import { GameDetails } from './components/GameDetails/GameDetails';
 // import { MoreGames } from './components/MoreGames/MoreGames';
 // import { Footer } from './components/Footer/Footer';
@@ -21,7 +21,7 @@ function App() {
         </section>
         <main>
           <GameDisplay gameData={data}/>
-          {/* <GameInfo info={data}/> */}
+          <GameInfo info={data}/>
           {/* <GameDetails detail={data}/> */}
           {/* <section className='mt-12 w-[1000px] h-[300px] bg-[#F8F8F8] mx-auto p-6 flex gap-2'>
             <div className='flex flex-col gap-6 justify-center'>
