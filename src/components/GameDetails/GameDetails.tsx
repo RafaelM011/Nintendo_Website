@@ -12,7 +12,7 @@ export const GameDetails: React.FC<Props> = ({detail}): JSX.Element => {
     
     return (
         <>
-            <section className="w-full max-w-[1000px] h-[200[x] flex flex-col md:flex-row gap-8 mx-auto justify-between mt-20 px-4">
+            <section className="w-full max-w-[1000px] flex flex-col md:flex-row gap-8 mx-auto justify-between mt-20 px-4">
                 <div className="bg-[#F8F8F8] h-[200px] md:w-6/12 w-full">
                     <h1 className="text-center font-bold py-6"> ESRB rating </h1>
                     <div className="flex gap-4 bg-white w-10/12 mx-auto p-4 shadow-[0px_0px_10px_5px_rgba(0,0,0,0.3)]">
@@ -38,7 +38,7 @@ export const GameDetails: React.FC<Props> = ({detail}): JSX.Element => {
                     </div>
                 </div>
             </section>
-            <section className="max-w-[1000px] h-[500px] grid grid-rows-[repeat(8,1fr)] mx-auto mt-10 px-4">
+            <section className="max-w-[1000px] grid grid-rows-[repeat(8,1fr)] mx-auto mt-10 px-4">
                 <div className="border-main border-t-2 grid grid-cols-[28px_1fr] py-3">
                     <svg 
                         className="col-start-1 col-end-1 self-center" 

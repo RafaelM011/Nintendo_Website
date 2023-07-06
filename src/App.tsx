@@ -23,9 +23,10 @@ function App() {
           <GameDisplay gameData={data}/>
           <GameInfo info={data}/>
           <GameDetails detail={data}/>
-          {/* <section className='mt-12 w-[1000px] h-[300px] bg-[#F8F8F8] mx-auto p-6 flex gap-2'>
+          <section className='mt-12 w-11/12 max-w-[1000px] h-[300px] bg-[#F8F8F8] mx-auto flex gap-2'>
             <div className='flex flex-col gap-6 justify-center'>
-                <svg xmlns="http://www.w3.org/2000/svg" 
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
                   viewBox="0 0 250 66" 
                   width="200" 
                   role="presentation" 
@@ -45,8 +46,8 @@ function App() {
                   Learn more 
                 </button>
             </div>
-            <img src={require('./assets/Pro-Controller-Hands.avif')} alt='pro-controller'/>
-          </section> */}
+            <img className='hidden md:block' src={require('./assets/Pro-Controller-Hands.avif')} alt='pro-controller'/>
+          </section>
           {/* <MoreGames/> */}
         </main>
         <footer className='mt-32'>
