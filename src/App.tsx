@@ -5,7 +5,7 @@ import data from "./mocks/data.json";
 import { GameInfo } from './components/GameInfo/GameInfo';
 import { GameDetails } from './components/GameDetails/GameDetails';
 // import { MoreGames } from './components/MoreGames/MoreGames';
-// import { Footer } from './components/Footer/Footer';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
                   <b className='text-secundary font-semibold border-secundary border-b-2 mx-2 cursor-pointer'> Save Data Cloud</b>
                 </p>
                 <button 
-                  className="bg-secundary w-3/12 py-1 text-white text-md font-semibold rounded-md hover:scale-110 transition duration-200 hover:bg-red-700"> 
+                  className="bg-secundary w-3/12 min-w-[100px] py-1 text-white text-md font-semibold rounded-md hover:scale-110 transition duration-200 hover:bg-red-700"> 
                   Learn more 
                 </button>
             </div>
@@ -51,7 +51,7 @@ function App() {
           {/* <MoreGames/> */}
         </main>
         <footer className='mt-32'>
-          {/* <Footer/> */}
+          <Footer/>
         </footer>
     </>
   );

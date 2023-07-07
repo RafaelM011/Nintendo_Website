@@ -1,7 +1,7 @@
 export const Footer: React.FC = (): JSX.Element => {
     return(
         <>
-            <header className='w-full bg-secundary h-[120px] flex justify-between px-60 text-white'>
+            <header className='w-full bg-secundary h-[120px] flex flex-col items-center md:flex-row justify-between py-3 px-4 text-white'>
                 <svg className=" cursor-pointer" 
                     viewBox="0 0 97 24" 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -61,7 +61,7 @@ export const Footer: React.FC = (): JSX.Element => {
                     </svg>
                 </div>
             </header>
-            <main className='w-8/12 h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr] pt-10'>
+            {/* <main className='w-8/12 h-[400px] mx-auto grid grid-cols-[1fr_1fr_1fr_1fr_2fr] pt-10'>
                 <div className="col-start-1 col-end-1 border-main border-r-2 h-[220px] pl-4"> 
                     <h1 className="text-main font-bold text-md hover:underline underline-offset-8 decoration-red-800"> About Nintendo </h1>
                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Careers </p>
@@ -109,8 +109,8 @@ export const Footer: React.FC = (): JSX.Element => {
                         <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Cookies and interes-based-ads </p>
                      </div>
                 </div>
-            </main>
-            <footer className='w-full h-[80px] bg-[#242424] flex gap-10 justify-center items-center'>
+            </main> */}
+            <footer className='w-full pb-[100px] pt-4 px-4 lg:h-[80px] lg:pb-0 bg-[#242424] flex flex-col lg:flex-row justify-center gap-5 items-center'>
                 <p className='text-xs text-white'> © Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA </p>
                 <div className='flex gap-4 '>
                     <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Contact Us </button>
