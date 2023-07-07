@@ -7,7 +7,6 @@ interface Props {
 
 export const GameImages: React.FC<Props> = ({images}): JSX.Element => {
     const [imgIndex, setImgIndex] = useState(0);
-    const sliderContainer = document.getElementById('slider-container')
     // const imgElement = document.getElementById('slide-img')
 
     const handleSlide = (move: number): void => {
@@ -15,6 +14,7 @@ export const GameImages: React.FC<Props> = ({images}): JSX.Element => {
     }
 
     function handleLeftClick(){
+        const sliderContainer = document.getElementById('slider-container')
         if(sliderContainer) 
         {
             sliderContainer.scrollLeft -= 96; 
@@ -22,6 +22,7 @@ export const GameImages: React.FC<Props> = ({images}): JSX.Element => {
     }
 
     function handleRightClick(){
+        const sliderContainer = document.getElementById('slider-container')
         if(sliderContainer) 
         {
             sliderContainer.scrollLeft += 96; 
