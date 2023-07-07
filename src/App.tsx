@@ -11,7 +11,7 @@ function App() {
   return (
     <>
         <FixedNavBar/>
-        <section className='flex gap-2 justify-center text-md items-center py-2 bg-[#F8F8F8]'>
+        <section className='flex gap-2 justify-center text-md items-center py-2 px-2 bg-[#F8F8F8]'>
             <div className='border-r-2 border-main pr-4 h-fit'>
               <b>Free shipping</b> on orders $50 or more. <u>Restrictions apply.</u>
             </div>
