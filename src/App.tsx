@@ -38,7 +38,6 @@ function App() {
         </section>
         <main>
           <GameDisplay gameData={data}/>
-          {/* {downloadButtonOnScreen ? 'true' : 'false'}  */}
           <GameInfo info={data}/>
           <GameDetails detail={data}/>
           <section className='mt-12 w-11/12 max-w-[1000px] h-[300px] bg-[#F8F8F8] mx-auto flex gap-2'>
