@@ -28,7 +28,7 @@ export const FixedNavBar: React.FC<Props> = ({downloadButtonOnScreen}): JSX.Elem
                 ? 
                 <>
                     <MediumNavBar/>
-                    <BottomNavBar/>
+                    <BottomNavBar downloadButtonOnScreen={downloadButtonOnScreen}/>
                 </>
                 : <LargeNavBar/>
             }
