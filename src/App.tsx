@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FixedNavBar } from './components/FixedNavBar/FixedNavBar';
 import { GameDisplay } from './components/GameDisplay/GameDisplay';
 import data from "./mocks/data.json";
 import { GameInfo } from './components/GameInfo/GameInfo';
 import { GameDetails } from './components/GameDetails/GameDetails';
-// import { MoreGames } from './components/MoreGames/MoreGames';
+import { MoreGames } from './components/MoreGames/MoreGames';
 import { Footer } from './components/Footer/Footer';
 
 function App() {
-  const [downloadButtonOnScreen, setDownloadButtonOnScreen] = useState(false);
-  let observer = new IntersectionObserver(() => {
-      setDownloadButtonOnScreen(prevState => !prevState)
+  const [downloadButtonOnScreen, setDownloadButtonOnScreen] = useState(true);
+  let observer = new IntersectionObserver(entries => {
+      setDownloadButtonOnScreen(entries[0].isIntersecting)
   }, {
       root: null,
       rootMargin: "0px",
@@ -23,7 +23,11 @@ function App() {
     if(target) {
         observer.observe(target)
     }
-}, [])
+ 
+    // return function cleanup() {
+    //   if(target) observer.unobserve(target);
+    // }
+  })
 
   return (
     <>
@@ -65,7 +69,7 @@ function App() {
             </div>
             <img className='hidden md:block' src={require('./assets/Pro-Controller-Hands.avif')} alt='pro-controller'/>
           </section>
-          {/* <MoreGames/> */}
+          <MoreGames/>
         </main>
         <footer className='mt-32'>
           <Footer/>

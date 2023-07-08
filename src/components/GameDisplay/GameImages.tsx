@@ -36,7 +36,7 @@ export const GameImages: React.FC<Props> = ({images}): JSX.Element => {
                 <button onClick={() => handleSlide(-1)} className="absolute top-0 bottom-0 left-0 pl-10" disabled={imgIndex === 0}> L </button>
                 <button onClick={() => handleSlide(1)} className="absolute top-0 bottom-0 right-0 pr-10" disabled={imgIndex === 6}> R </button>
             </div>
-            <Slider>
+            <Slider height='h-[70px]'>
                 <img className='opacity-60 hover:opacity-90' id='slide-img' src={require('../../assets/hero.avif')} alt='game-img-1' onClick={() => setImgIndex(0)}></img>
                 <img className='opacity-60 hover:opacity-90' src={require('../../assets/screenshot01.avif')} alt='game-img-2' onClick={() => setImgIndex(1)}></img>
                 <img className='opacity-60 hover:opacity-90' src={require('../../assets/screenshot02.avif')} alt='game-img-3' onClick={() => setImgIndex(2)}></img>

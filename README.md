@@ -6,7 +6,7 @@
 - [x] GameDetails responsive breakponit at 768px 
 - [x] Footer breakpoint at 768px and 1024px
 - [ ] Games and GameImages Slider
-- [ ] Create an intersection observer for the download button to render another component
+- [x] Create an intersection observer for the download button to render another component
 
 
 ```mermaid
