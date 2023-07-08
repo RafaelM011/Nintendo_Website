@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { FixedNavBar } from './components/FixedNavBar/FixedNavBar';
 import { GameDisplay } from './components/GameDisplay/GameDisplay';
 import data from "./mocks/data.json";
@@ -8,9 +8,26 @@ import { GameDetails } from './components/GameDetails/GameDetails';
 import { Footer } from './components/Footer/Footer';
 
 function App() {
+  const [downloadButtonOnScreen, setDownloadButtonOnScreen] = useState(false);
+  let observer = new IntersectionObserver(() => {
+      setDownloadButtonOnScreen(prevState => !prevState)
+  }, {
+      root: null,
+      rootMargin: "0px",
+      threshold: 1
+  })
+
+  useEffect(() => {
+    let target = document.querySelector("#download_button")
+    
+    if(target) {
+        observer.observe(target)
+    }
+}, [])
+
   return (
     <>
-        <FixedNavBar/>
+        <FixedNavBar downloadButtonOnScreen={downloadButtonOnScreen}/>
         <section className='flex gap-2 justify-center text-md items-center py-2 px-2 bg-[#F8F8F8]'>
             <div className='lg:border-r-2 border-main pr-4 h-fit'>
               <b>Free shipping</b> on orders $50 or more. <u>Restrictions apply.</u>
@@ -21,6 +38,7 @@ function App() {
         </section>
         <main>
           <GameDisplay gameData={data}/>
+          {/* {downloadButtonOnScreen ? 'true' : 'false'}  */}
           <GameInfo info={data}/>
           <GameDetails detail={data}/>
           <section className='mt-12 w-11/12 max-w-[1000px] h-[300px] bg-[#F8F8F8] mx-auto flex gap-2'>
@@ -43,7 +61,7 @@ function App() {
                 </p>
                 <button 
                   className="bg-secundary w-3/12 min-w-[100px] py-1 text-white text-md font-semibold rounded-md hover:scale-110 transition duration-200 hover:bg-red-700"> 
-                  Learn more 
+                     
                 </button>
             </div>
             <img className='hidden md:block' src={require('./assets/Pro-Controller-Hands.avif')} alt='pro-controller'/>

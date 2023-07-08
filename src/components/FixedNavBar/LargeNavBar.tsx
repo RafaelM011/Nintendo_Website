@@ -40,7 +40,6 @@ export const LargeNavBar = (): JSX.Element => {
                         <img className="w-[20px]" src={Login_Icon} alt="login button"/>
                         <button className="hover:text-secundary transition ease-in-out duration-200">Log in / Sign Up</button>
                     </div>
-
                 </div>
             </div>
         </div>

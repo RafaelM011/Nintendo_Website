@@ -38,7 +38,12 @@ export const GameDisplay: React.FC<Props> = ({gameData}): JSX.Element => {
                     <h1 className="text-3xl text-[#555555] mt-9 font-semibold"> {title}</h1>
                     <h1 className="text-3xl text-[#555555] mt-9 font-semibold"> ${price} </h1>
                     <p className="mt-6 text-xs"> Eligible for up to <b>75</b> Gold Points </p>
-                    <button className="bg-secundary w-full h-16 text-white text-2xl rounded-md mt-6 hover:scale-110 transition duration-200 hover:bg-red-700"> Direct download </button>
+                    <button
+                        id='download_button' 
+                        className="bg-secundary w-full h-16 text-white text-2xl rounded-md mt-6 hover:scale-110 transition duration-200 hover:bg-red-700"
+                    > 
+                        Direct download 
+                    </button>
                     <p className="text-xs mt-6" > This item will be sent to your system automatically after purchase. </p>
                  </div>
             </div>
