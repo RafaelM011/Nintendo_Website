@@ -2,7 +2,7 @@ import noImage from "../../assets/no_image.webp"
 
 export const Games: React.FC = (): JSX.Element => {
     return(
-        <div className="w-fit h-[350px] border-main border-[1px]">
+        <div className="w-fit border-main border-[1px]">
             <img className="w-full h-2/5" src={noImage} alt='no-img'/>
             <div className="py-4 px-4 h-3/5 flex flex-col justify-between">
                 <div className="w-[200px]">
