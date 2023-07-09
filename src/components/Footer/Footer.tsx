@@ -112,7 +112,7 @@ export const Footer: React.FC = (): JSX.Element => {
                     <p className="text-secundary font-bold text-sm hover:underline hover:text-red-800 underline-offset-8 decoration-red-800 my-2"> Cookies and interes-based-ads </p>
                 </div>
             </main>
-            <footer className='w-full pb-[100px] pt-4 px-4 lg:h-[80px] lg:pb-0 bg-[#242424] flex flex-col lg:flex-row justify-center gap-5 items-center'>
+            <footer className='w-full pb-[180px] pt-4 px-4 lg:h-[80px] lg:pb-0 bg-[#242424] flex flex-col lg:flex-row justify-center gap-5 items-center'>
                 <p className='text-xs text-white'> © Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA </p>
                 <div className='flex gap-4 '>
                     <button className='text-xs font-medium border-secundary hover:border-b-2 text-white '> Contact Us </button>

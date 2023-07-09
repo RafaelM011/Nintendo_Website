@@ -9,11 +9,11 @@ export const BottomNavBar: React.FC<Props> = ({downloadButtonOnScreen}): JSX.Ele
             <div 
                 className={`fixed bottom-10 left-0 right-0 bg-[#E8E8E8] w-7/12 px-4 pb-8 rounded-2xl h-[110px] mx-auto -z-10 justify-between items-center ${downloadButtonOnScreen ? "hidden" : "flex"}`}
             >
-                <h2 className="text-main pt-1">
+                <h2 className="text-main pt-1 text-sm md:text-lg">
                     Digital <b className="font-bold"> $14.99 </b>
                 </h2>
                 <button 
-                    className="bg-secundary h-fit px-10 py-1 text-white text-lg font-bold rounded-full hover:scale-110 transition duration-200 hover:bg-red-700"
+                    className="bg-secundary h-fit w-fit px-5 md:px-10 max-[460px]:py-0 py-1 text-white text-sm md:text-lg font-bold rounded-full hover:scale-110 transition duration-200 hover:bg-red-700"
                 >
                     Direct download 
                 </button>
