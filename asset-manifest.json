@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Nintendo_Website/static/css/main.1383d665.css",
+    "main.js": "/Nintendo_Website/static/js/main.6054804d.js",
+    "static/js/787.896291a7.chunk.js": "/Nintendo_Website/static/js/787.896291a7.chunk.js",
+    "static/media/screenshot05.avif": "/Nintendo_Website/static/media/screenshot05.fdb1d87b81872d509924.avif",
+    "static/media/screenshot01.avif": "/Nintendo_Website/static/media/screenshot01.a2861a3282b2439390d5.avif",
+    "static/media/screenshot02.avif": "/Nintendo_Website/static/media/screenshot02.4fe76eef8faee2e97a10.avif",
+    "static/media/screenshot03.avif": "/Nintendo_Website/static/media/screenshot03.0850e9cff2c25c3f54ec.avif",
+    "static/media/screenshot04.avif": "/Nintendo_Website/static/media/screenshot04.1b5aa16267ea4274c572.avif",
+    "static/media/screenshot06.avif": "/Nintendo_Website/static/media/screenshot06.572b62ba9ef82797e54b.avif",
+    "static/media/hero.avif": "/Nintendo_Website/static/media/hero.533ab08c06fbaeeed3e6.avif",
+    "static/media/Pro-Controller-Hands.avif": "/Nintendo_Website/static/media/Pro-Controller-Hands.2799c0917f49aaadacf1.avif",
+    "static/media/no_image.webp": "/Nintendo_Website/static/media/no_image.b28a9664bdc49331445f.webp",
+    "static/media/E10plus.svg": "/Nintendo_Website/static/media/E10plus.f1eb8161649818ceacf60265d878760e.svg",
+    "index.html": "/Nintendo_Website/index.html",
+    "main.1383d665.css.map": "/Nintendo_Website/static/css/main.1383d665.css.map",
+    "main.6054804d.js.map": "/Nintendo_Website/static/js/main.6054804d.js.map",
+    "787.896291a7.chunk.js.map": "/Nintendo_Website/static/js/787.896291a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1383d665.css",
+    "static/js/main.6054804d.js"
+  ]
+}
